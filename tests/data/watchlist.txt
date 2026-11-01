@@ -1,0 +1,4 @@
+X | Y | XYZ | APP | ON
+# comment
+ZZZ | W | ZZZ | APP | OFF
+AAA | V | AAA | IDX | ON

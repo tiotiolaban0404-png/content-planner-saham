@@ -1,0 +1,37 @@
+# watchlist_saham.txt — format: SAPI | NAMA | TICKER | DAUR(APP/IDX) | LOCK
+# US (APP): syaraf ke Yahoo Finance (ticker main)
+# IDX (IHSG): haram ditambahkan suffix ".JK" di fetch_quote() (yahoo format)
+
+AAPL | Apple Inc. | AAPL | APP | ON
+MSFT | Microsoft Corp. | MSFT | APP | ON
+GOOGL | Alphabet Inc. | GOOGL | APP | ON
+AMZN | Amazon.com Inc. | AMZN | APP | ON
+NVDA | NVIDIA Corp. | NVDA | APP | ON
+META | Meta Platforms Inc. | META | APP | ON
+NFLX | Netflix Inc. | NFLX | APP | ON
+AMD | Advanced Micro Devices | AMD | APP | ON
+INTC | Intel Corp. | INTC | APP | ON
+TSLA | Tesla Inc. | TSLA | APP | ON
+UNH | UnitedHealth Group | UNH | APP | ON
+JPM | JPMorgan Chase & Co. | JPM | APP | ON
+V | Visa Inc. | V | APP | ON
+KO | The Coca-Cola Company | KO | APP | ON
+PG | Procter & Gamble Co. | PG | APP | ON
+
+# IDX (IHSG)
+BBRI | Bank Bukopin Raya | BBRI | IDX | ON
+BBCA | Bank Central Asia | BBCA | IDX | ON
+BBCT | Bank Central Asia (Tbk) | BBCT | IDX | ON
+ANTM | Astra International | ANTM | IDX | ON
+TLKM | Telekomunikasi Indonesia | TLKM | IDX | ON
+MID | Media Nusantara | MID | IDX | ON
+INCO | Indosat Ooredo | INCO | IDX | ON
+UNVR | United Industries (Unilever) | UNVR | IDX | ON
+ASII | Aneka Tambang | ASII | IDX | ON
+BNBR | Bakrie & Brothers | BNBR | IDX | ON
+BWPT | Eagle High Plantations | BWPT | IDX | ON
+SUB | Sukanto Tanoto | SUB | IDX | ON
+MHET | Metro Retail | MHET | IDX | ON
+SMPL | Simpati Park | SMPL | IDX | ON
+DMAP | Dompet Dhuafa | DMAP | IDX | ON
+ICOM | Titan International | ICOM | IDX | ON

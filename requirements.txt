@@ -1,0 +1,11 @@
+# Content Planner & Scheduler — dependencies
+# Jalankan dengan python3 (system):  /usr/bin/python3 -m venv .venv && source .venv/bin/activate
+
+yfinance>=0.2.0
+python-dotenv>=1.0.0
+requests>=2.28.0
+pandas>=2.0.0
+pandas_ta>=0.3.0
+
+# Opsional: kalau mau batasi wajib pakai (bukan Python stdlib)
+# pendulum>=2.0.0

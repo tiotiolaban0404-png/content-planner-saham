@@ -1,0 +1,24 @@
+# Secrets & local config (jANGAN ever commit)
+.env
+config_saham.txt.local
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+saham_env/
+dist/
+build/
+*.prof
+.coverage
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Hermes agent runtime (cache, plugins, etc.)
+.hermes/
