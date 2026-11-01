@@ -24,6 +24,7 @@ from pathlib import Path
 
 import requests
 from dotenv import load_dotenv  # noqa: E402
+from facebook_messenger_gateway import FacebookMessengerGateway  # noqa: F401
 
 # ---------------------------------------------------------------------------
 # konfigurasi default (dipakai kalau file .txt belum ada)
@@ -337,6 +338,70 @@ def deliver_telegram(content, telegram_chat_id=None):
         print(f"[TELEMGR] ERROR: {e}")
 
 
+def deliver_facebook(content, recipient_id=None):
+    """
+    Deliver ke Facebook Messenger Gateway.
+    Membaca FACEBOOK_PAGE_ID + FACEBOOK_PAGE_ACCESS_TOKEN dari .env.
+    Kalau belum dikonfigurasi, fallback ke print (terminal).
+    """
+    _load_env_if_needed()
+    token = os.environ.get("FACEBOOK_PAGE_ACCESS_TOKEN", "").strip()
+    if not token:
+        print(f"[FB] SKIP: FACEBOOK_PAGE_ACCESS_TOKEN not set; message not sent.")
+        return
+
+    gateway = get_gateway("facebook")
+    if gateway is None:
+        print(f"[FB] SKIP: FacebookMessengerGateway not ready; message not sent.")
+        return
+
+    recipient_id = recipient_id or os.environ.get("FACEBOOK_RECIPIENT_ID", "").strip()
+    if not recipient_id:
+        print(f"[FB] SKIP: FACEBOOK_RECIPIENT_ID not set; message not sent.")
+        return
+
+    gateway.send_message(recipient_id, content["text"])
+
+
+def get_gateway(name: str):
+    """
+    Kembalikan instance gateway (lazy init).
+    """
+    _gateways.setdefault(name, None)
+    if name == "telegram":
+        _gateways[name] = None  # Telegram dipakai langsung lewat deliver_telegram
+    elif name == "facebook":
+        _gateways[name] = FacebookMessengerGateway()
+    return _gateways.get(name)
+
+
+# Daftar gateway aktif (bisa diubah dari .env)
+ENABLED_GATEWAYS = ["telegram", "facebook"]
+
+# Cache instance gateway (lazy init)
+_gateways: dict[str, object] = {}
+
+
+def deliver_multichannel(content):
+    """
+    Kirim ke seluruh gateway yang aktif (Telegram / Facebook).
+    Baca dari ENABLED_GATEWAYS.
+    """
+    for gw_name in ENABLED_GATEWAYS:
+        if gw_name == "telegram":
+            deliver_telegram(content)
+        elif gw_name == "facebook":
+            deliver_facebook(content)
+
+
+def deliver(content):
+    """
+    Alias delivery: kirim ke semua gateway terdaftar.
+    Memetakan dari deliver_multichannel.
+    """
+    deliver_multichannel(content)
+
+
 # ---------------------------------------------------------------------------
 # 5. Scheduler
 # ---------------------------------------------------------------------------
@@ -347,6 +412,13 @@ def run_pipeline(watchlist_config, dry_run=False, source: str = "yfinance", dela
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"\n=== content_planner_saham run: {now} ===")
 
+    # Inisialisasi lazy gateway (oleh call pertama)
+    get_gateway("telegram")
+    _load_env_if_needed()
+    for gw_name in ENABLED_GATEWAYS:
+        if gw_name == "facebook":
+            get_gateway("facebook")
+
     for sym, name, ticker, market, lock in watchlist_config:
         if lock.strip() != "ON":
             continue
@@ -356,7 +428,7 @@ def run_pipeline(watchlist_config, dry_run=False, source: str = "yfinance", dela
             c = craft_content(a)
             print(f"[{q.get('symbol')}] {c['text']}  ({c['summary']})")
             if not dry_run:
-                deliver_telegram(c)
+                deliver(c)
         except Exception as e:
             print(f"[{ticker}] ERROR: {e}")
         time.sleep(delay)
