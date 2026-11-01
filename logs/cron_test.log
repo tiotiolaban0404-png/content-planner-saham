@@ -1,0 +1,375 @@
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBCT.JK"}}}
+$BBCT.JK: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MID.JK"}}}
+$MID.JK: No data found, symbol may be delisted
+$SUB.JK: No data found, symbol may be delisted
+$MHET.JK: No data found, symbol may be delisted
+$SMPL.JK: No data found, symbol may be delisted
+$DMAP.JK: No data found, symbol may be delisted
+$ICOM.JK: No data found, symbol may be delisted
+✨ Content Planner & Scheduler — processing watchlist (real data via yfinance).
+   Edit `fetch_quote()` → ganti ke Finnhub / IDX broker lain.
+
+=== content_planner_saham run: 2026-11-01 04:10:01 ===
+[AAPL] BUY • AAPL — price 344.63 (RSI 54.92, score 55)  (AAPL BUY = 55 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MSFT] WAIT • MSFT — price 521.91 (RSI 36.15, score 50)  (MSFT WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[GOOGL] SELL • GOOGL — price 279.84 (RSI 14.11, score 15)  (GOOGL SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[AMZN] SELL • AMZN — price 240.35 (RSI 33.75, score 15)  (AMZN SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[NVDA] SELL • NVDA — price 204.64 (RSI 30.97, score 15)  (NVDA SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[META] WAIT • META — price 614.99 (RSI 17.63, score 50)  (META WAIT = 50 (awk oversold))
+[TELEMGR] SENT ok to chat_id 7401634640
+[NFLX] SELL • NFLX — price 62.08 (RSI 24.96, score 15)  (NFLX SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[AMD] WAIT • AMD — price 504.8 (RSI 35.46, score 50)  (AMD WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[INTC] SELL • INTC — price 65.76 (RSI 22.83, score 15)  (INTC SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[TSLA] BUY • TSLA — price 399.81 (RSI 59.71, score 60)  (TSLA BUY = 60 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[UNH] BUY • UNH — price 406.97 (RSI 66.05, score 66)  (UNH BUY = 66 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[JPM] WAIT • JPM — price 337.04 (RSI 53.11, score 50)  (JPM WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[V] BUY • V — price 413.59 (RSI 69.91, score 70)  (V BUY = 70 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[KO] BUY • KO — price 94.08 (RSI 64.12, score 64)  (KO BUY = 64 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[PG] BUY • PG — price 161.57 (RSI 65.43, score 65)  (PG BUY = 65 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBRI] SELL • BBRI — price 2800.0 (RSI 36.28, score 15)  (BBRI SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBCA] SELL • BBCA — price 4980.0 (RSI 34.15, score 15)  (BBCA SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBCT] SELL • BBCT — price 97.09 (RSI 34.54, score 15)  (BBCT SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ANTM] SELL • ANTM — price 2620.0 (RSI 34.75, score 15)  (ANTM SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[TLKM] SELL • TLKM — price 1980.0 (RSI 38.28, score 15)  (TLKM SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MID] BUY • MID — price 105.31 (RSI 69.51, score 70)  (MID BUY = 70 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[INCO] SELL • INCO — price 3420.0 (RSI 32.31, score 15)  (INCO SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[UNVR] SELL • UNVR — price 1390.0 (RSI 31.07, score 15)  (UNVR SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ASII] WAIT • ASII — price 4800.0 (RSI 51.92, score 50)  (ASII WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BNBR] SELL • BNBR — price 41.0 (RSI 20.93, score 15)  (BNBR SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BWPT] SELL • BWPT — price 77.0 (RSI 28.3, score 15)  (BWPT SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[SUB] BUY • SUB — price 114.53 (RSI 53.71, score 54)  (SUB BUY = 54 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MHET] SELL • MHET — price 91.14 (RSI 22.68, score 15)  (MHET SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[SMPL] WAIT • SMPL — price 101.81 (RSI 52.45, score 50)  (SMPL WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[DMAP] BUY • DMAP — price 105.34 (RSI 55.77, score 56)  (DMAP BUY = 56 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ICOM] BUY • ICOM — price 110.64 (RSI 50.33, score 51)  (ICOM BUY = 51 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBCT.JK"}}}
+$BBCT.JK: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MID.JK"}}}
+$MID.JK: No data found, symbol may be delisted
+$SUB.JK: No data found, symbol may be delisted
+$MHET.JK: No data found, symbol may be delisted
+$SMPL.JK: No data found, symbol may be delisted
+$DMAP.JK: No data found, symbol may be delisted
+$ICOM.JK: No data found, symbol may be delisted
+✨ Content Planner & Scheduler — processing watchlist (real data via yfinance).
+   Edit `fetch_quote()` → ganti ke Finnhub / IDX broker lain.
+
+=== content_planner_saham run: 2026-11-01 04:11:01 ===
+[AAPL] BUY • AAPL — price 344.63 (RSI 54.92, score 55)  (AAPL BUY = 55 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MSFT] WAIT • MSFT — price 521.91 (RSI 36.15, score 50)  (MSFT WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[GOOGL] SELL • GOOGL — price 279.84 (RSI 14.11, score 15)  (GOOGL SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[AMZN] SELL • AMZN — price 240.35 (RSI 33.75, score 15)  (AMZN SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[NVDA] SELL • NVDA — price 204.64 (RSI 30.97, score 15)  (NVDA SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[META] WAIT • META — price 614.99 (RSI 17.63, score 50)  (META WAIT = 50 (awk oversold))
+[TELEMGR] SENT ok to chat_id 7401634640
+[NFLX] SELL • NFLX — price 62.08 (RSI 24.96, score 15)  (NFLX SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[AMD] WAIT • AMD — price 504.8 (RSI 35.46, score 50)  (AMD WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[INTC] SELL • INTC — price 65.76 (RSI 22.83, score 15)  (INTC SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[TSLA] BUY • TSLA — price 399.81 (RSI 59.71, score 60)  (TSLA BUY = 60 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[UNH] BUY • UNH — price 406.97 (RSI 66.05, score 66)  (UNH BUY = 66 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[JPM] WAIT • JPM — price 337.04 (RSI 53.11, score 50)  (JPM WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[V] BUY • V — price 413.59 (RSI 69.91, score 70)  (V BUY = 70 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[KO] BUY • KO — price 94.08 (RSI 64.12, score 64)  (KO BUY = 64 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[PG] BUY • PG — price 161.57 (RSI 65.43, score 65)  (PG BUY = 65 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBRI] SELL • BBRI — price 2800.0 (RSI 36.28, score 15)  (BBRI SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBCA] SELL • BBCA — price 4980.0 (RSI 34.15, score 15)  (BBCA SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBCT] BUY • BBCT — price 112.0 (RSI 64.04, score 64)  (BBCT BUY = 64 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ANTM] SELL • ANTM — price 2620.0 (RSI 34.75, score 15)  (ANTM SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[TLKM] SELL • TLKM — price 1980.0 (RSI 38.28, score 15)  (TLKM SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MID] WAIT • MID — price 100.58 (RSI 34.21, score 50)  (MID WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[INCO] SELL • INCO — price 3420.0 (RSI 32.31, score 15)  (INCO SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[UNVR] SELL • UNVR — price 1390.0 (RSI 31.07, score 15)  (UNVR SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ASII] WAIT • ASII — price 4800.0 (RSI 51.92, score 50)  (ASII WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BNBR] SELL • BNBR — price 41.0 (RSI 20.93, score 15)  (BNBR SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BWPT] SELL • BWPT — price 77.0 (RSI 28.3, score 15)  (BWPT SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[SUB] WAIT • SUB — price 100.35 (RSI 76.69, score 50)  (SUB WAIT = 50 (awk overbought))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MHET] BUY • MHET — price 117.25 (RSI 70.0, score 70)  (MHET BUY = 70 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[SMPL] BUY • SMPL — price 113.53 (RSI 68.71, score 69)  (SMPL BUY = 69 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[DMAP] BUY • DMAP — price 112.12 (RSI 67.38, score 67)  (DMAP BUY = 67 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ICOM] BUY • ICOM — price 112.37 (RSI 48.65, score 51)  (ICOM BUY = 51 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBCT.JK"}}}
+$BBCT.JK: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MID.JK"}}}
+$MID.JK: No data found, symbol may be delisted
+$SUB.JK: No data found, symbol may be delisted
+$MHET.JK: No data found, symbol may be delisted
+$SMPL.JK: No data found, symbol may be delisted
+$DMAP.JK: No data found, symbol may be delisted
+$ICOM.JK: No data found, symbol may be delisted
+✨ Content Planner & Scheduler — processing watchlist (real data via yfinance).
+   Edit `fetch_quote()` → ganti ke Finnhub / IDX broker lain.
+
+=== content_planner_saham run: 2026-11-01 04:12:01 ===
+[AAPL] BUY • AAPL — price 344.63 (RSI 54.92, score 55)  (AAPL BUY = 55 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MSFT] WAIT • MSFT — price 521.91 (RSI 36.15, score 50)  (MSFT WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[GOOGL] SELL • GOOGL — price 279.84 (RSI 14.11, score 15)  (GOOGL SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[AMZN] SELL • AMZN — price 240.35 (RSI 33.75, score 15)  (AMZN SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[NVDA] SELL • NVDA — price 204.64 (RSI 30.97, score 15)  (NVDA SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[META] WAIT • META — price 614.99 (RSI 17.63, score 50)  (META WAIT = 50 (awk oversold))
+[TELEMGR] SENT ok to chat_id 7401634640
+[NFLX] SELL • NFLX — price 62.08 (RSI 24.96, score 15)  (NFLX SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[AMD] WAIT • AMD — price 504.8 (RSI 35.46, score 50)  (AMD WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[INTC] SELL • INTC — price 65.76 (RSI 22.83, score 15)  (INTC SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[TSLA] BUY • TSLA — price 399.81 (RSI 59.71, score 60)  (TSLA BUY = 60 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[UNH] BUY • UNH — price 406.97 (RSI 66.05, score 66)  (UNH BUY = 66 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[JPM] WAIT • JPM — price 337.04 (RSI 53.11, score 50)  (JPM WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[V] BUY • V — price 413.59 (RSI 69.91, score 70)  (V BUY = 70 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[KO] BUY • KO — price 94.08 (RSI 64.12, score 64)  (KO BUY = 64 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[PG] BUY • PG — price 161.57 (RSI 65.43, score 65)  (PG BUY = 65 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBRI] SELL • BBRI — price 2800.0 (RSI 36.28, score 15)  (BBRI SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBCA] SELL • BBCA — price 4980.0 (RSI 34.15, score 15)  (BBCA SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBCT] SELL • BBCT — price 98.37 (RSI 51.89, score 15)  (BBCT SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ANTM] SELL • ANTM — price 2620.0 (RSI 34.75, score 15)  (ANTM SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[TLKM] SELL • TLKM — price 1980.0 (RSI 38.28, score 15)  (TLKM SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MID] SELL • MID — price 97.29 (RSI 47.31, score 15)  (MID SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[INCO] SELL • INCO — price 3420.0 (RSI 32.31, score 15)  (INCO SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[UNVR] SELL • UNVR — price 1390.0 (RSI 31.07, score 15)  (UNVR SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ASII] WAIT • ASII — price 4800.0 (RSI 51.92, score 50)  (ASII WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BNBR] SELL • BNBR — price 41.0 (RSI 20.93, score 15)  (BNBR SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BWPT] SELL • BWPT — price 77.0 (RSI 28.3, score 15)  (BWPT SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[SUB] SELL • SUB — price 98.02 (RSI 43.1, score 15)  (SUB SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MHET] WAIT • MHET — price 109.75 (RSI 32.16, score 50)  (MHET WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[SMPL] BUY • SMPL — price 101.64 (RSI 59.63, score 60)  (SMPL BUY = 60 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[DMAP] BUY • DMAP — price 114.8 (RSI 70.43, score 70)  (DMAP BUY = 70 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ICOM] BUY • ICOM — price 107.95 (RSI 65.9, score 66)  (ICOM BUY = 66 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBCT.JK"}}}
+$BBCT.JK: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MID.JK"}}}
+$MID.JK: No data found, symbol may be delisted
+$SUB.JK: No data found, symbol may be delisted
+$MHET.JK: No data found, symbol may be delisted
+$SMPL.JK: No data found, symbol may be delisted
+$DMAP.JK: No data found, symbol may be delisted
+$ICOM.JK: No data found, symbol may be delisted
+✨ Content Planner & Scheduler — processing watchlist (real data via yfinance).
+   Edit `fetch_quote()` → ganti ke Finnhub / IDX broker lain.
+
+=== content_planner_saham run: 2026-11-01 04:13:01 ===
+[AAPL] BUY • AAPL — price 344.63 (RSI 54.92, score 55)  (AAPL BUY = 55 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MSFT] WAIT • MSFT — price 521.91 (RSI 36.15, score 50)  (MSFT WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[GOOGL] SELL • GOOGL — price 279.84 (RSI 14.11, score 15)  (GOOGL SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[AMZN] SELL • AMZN — price 240.35 (RSI 33.75, score 15)  (AMZN SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[NVDA] SELL • NVDA — price 204.64 (RSI 30.97, score 15)  (NVDA SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[META] WAIT • META — price 614.99 (RSI 17.63, score 50)  (META WAIT = 50 (awk oversold))
+[TELEMGR] SENT ok to chat_id 7401634640
+[NFLX] SELL • NFLX — price 62.08 (RSI 24.96, score 15)  (NFLX SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[AMD] WAIT • AMD — price 504.8 (RSI 35.46, score 50)  (AMD WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[INTC] SELL • INTC — price 65.76 (RSI 22.83, score 15)  (INTC SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[TSLA] BUY • TSLA — price 399.81 (RSI 59.71, score 60)  (TSLA BUY = 60 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[UNH] BUY • UNH — price 406.97 (RSI 66.05, score 66)  (UNH BUY = 66 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[JPM] WAIT • JPM — price 337.04 (RSI 53.11, score 50)  (JPM WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[V] BUY • V — price 413.59 (RSI 69.91, score 70)  (V BUY = 70 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[KO] BUY • KO — price 94.08 (RSI 64.12, score 64)  (KO BUY = 64 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[PG] BUY • PG — price 161.57 (RSI 65.43, score 65)  (PG BUY = 65 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBRI] SELL • BBRI — price 2800.0 (RSI 36.28, score 15)  (BBRI SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBCA] SELL • BBCA — price 4980.0 (RSI 34.15, score 15)  (BBCA SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBCT] BUY • BBCT — price 117.48 (RSI 78.66, score 79)  (BBCT BUY = 79 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ANTM] SELL • ANTM — price 2620.0 (RSI 34.75, score 15)  (ANTM SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[TLKM] SELL • TLKM — price 1980.0 (RSI 38.28, score 15)  (TLKM SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MID] WAIT • MID — price 107.27 (RSI 28.94, score 50)  (MID WAIT = 50 (awk oversold))
+[TELEMGR] SENT ok to chat_id 7401634640
+[INCO] SELL • INCO — price 3420.0 (RSI 32.31, score 15)  (INCO SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[UNVR] SELL • UNVR — price 1390.0 (RSI 31.07, score 15)  (UNVR SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ASII] WAIT • ASII — price 4800.0 (RSI 51.92, score 50)  (ASII WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BNBR] SELL • BNBR — price 41.0 (RSI 20.93, score 15)  (BNBR SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BWPT] SELL • BWPT — price 77.0 (RSI 28.3, score 15)  (BWPT SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[SUB] WAIT • SUB — price 99.16 (RSI 63.39, score 50)  (SUB WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MHET] BUY • MHET — price 108.78 (RSI 53.31, score 53)  (MHET BUY = 53 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[SMPL] WAIT • SMPL — price 105.45 (RSI 40.85, score 50)  (SMPL WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[DMAP] SELL • DMAP — price 94.36 (RSI 36.92, score 15)  (DMAP SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ICOM] WAIT • ICOM — price 107.03 (RSI 35.3, score 50)  (ICOM WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBCT.JK"}}}
+$BBCT.JK: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MID.JK"}}}
+$MID.JK: No data found, symbol may be delisted
+$SUB.JK: No data found, symbol may be delisted
+$MHET.JK: No data found, symbol may be delisted
+$SMPL.JK: No data found, symbol may be delisted
+$DMAP.JK: No data found, symbol may be delisted
+$ICOM.JK: No data found, symbol may be delisted
+✨ Content Planner & Scheduler — processing watchlist (real data via yfinance).
+   Edit `fetch_quote()` → ganti ke Finnhub / IDX broker lain.
+
+=== content_planner_saham run: 2026-11-01 04:14:01 ===
+[AAPL] BUY • AAPL — price 344.63 (RSI 54.92, score 55)  (AAPL BUY = 55 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MSFT] WAIT • MSFT — price 521.91 (RSI 36.15, score 50)  (MSFT WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[GOOGL] SELL • GOOGL — price 279.84 (RSI 14.11, score 15)  (GOOGL SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[AMZN] SELL • AMZN — price 240.35 (RSI 33.75, score 15)  (AMZN SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[NVDA] SELL • NVDA — price 204.64 (RSI 30.97, score 15)  (NVDA SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[META] WAIT • META — price 614.99 (RSI 17.63, score 50)  (META WAIT = 50 (awk oversold))
+[TELEMGR] SENT ok to chat_id 7401634640
+[NFLX] SELL • NFLX — price 62.08 (RSI 24.96, score 15)  (NFLX SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[AMD] WAIT • AMD — price 504.8 (RSI 35.46, score 50)  (AMD WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[INTC] SELL • INTC — price 65.76 (RSI 22.83, score 15)  (INTC SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[TSLA] BUY • TSLA — price 399.81 (RSI 59.71, score 60)  (TSLA BUY = 60 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[UNH] BUY • UNH — price 406.97 (RSI 66.05, score 66)  (UNH BUY = 66 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[JPM] WAIT • JPM — price 337.04 (RSI 53.11, score 50)  (JPM WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[V] BUY • V — price 413.59 (RSI 69.91, score 70)  (V BUY = 70 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[KO] BUY • KO — price 94.08 (RSI 64.12, score 64)  (KO BUY = 64 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[PG] BUY • PG — price 161.57 (RSI 65.43, score 65)  (PG BUY = 65 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBRI] SELL • BBRI — price 2800.0 (RSI 36.28, score 15)  (BBRI SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBCA] SELL • BBCA — price 4980.0 (RSI 34.15, score 15)  (BBCA SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BBCT] SELL • BBCT — price 104.03 (RSI 47.31, score 15)  (BBCT SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ANTM] SELL • ANTM — price 2620.0 (RSI 34.75, score 15)  (ANTM SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[TLKM] SELL • TLKM — price 1980.0 (RSI 38.28, score 15)  (TLKM SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MID] SELL • MID — price 94.36 (RSI 43.51, score 15)  (MID SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[INCO] SELL • INCO — price 3420.0 (RSI 32.31, score 15)  (INCO SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[UNVR] SELL • UNVR — price 1390.0 (RSI 31.07, score 15)  (UNVR SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ASII] WAIT • ASII — price 4800.0 (RSI 51.92, score 50)  (ASII WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BNBR] SELL • BNBR — price 41.0 (RSI 20.93, score 15)  (BNBR SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[BWPT] SELL • BWPT — price 77.0 (RSI 28.3, score 15)  (BWPT SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[SUB] BUY • SUB — price 110.08 (RSI 78.44, score 78)  (SUB BUY = 78 (awk golden-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[MHET] SELL • MHET — price 100.65 (RSI 45.35, score 15)  (MHET SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[SMPL] SELL • SMPL — price 101.44 (RSI 49.26, score 15)  (SMPL SELL = 15 (awk death-cross))
+[TELEMGR] SENT ok to chat_id 7401634640
+[DMAP] WAIT • DMAP — price 102.78 (RSI 39.62, score 50)  (DMAP WAIT = 50 (awk netral))
+[TELEMGR] SENT ok to chat_id 7401634640
+[ICOM] WAIT • ICOM — price 101.83 (RSI 42.42, score 50)  (ICOM WAIT = 50 (awk macd_positive))
+[TELEMGR] SENT ok to chat_id 7401634640

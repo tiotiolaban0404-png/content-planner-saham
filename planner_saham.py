@@ -324,7 +324,7 @@ def deliver_telegram(content, telegram_chat_id=None):
     payload = {
         "chat_id": chat_id,
         "text": text,
-        "parse_mode": "MarkdownV2",
+        "parse_mode": "HTML",
     }
 
     try:
